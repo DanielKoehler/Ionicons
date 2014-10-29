@@ -16,10 +16,28 @@ public class Ionicons: NSObject {
 
     public class func fontWithSize(size:CGFloat) -> UIFont {
         
+        
         var font = UIFont(name:"ionicons", size: size)
         
         if(font ==  nil){
-            NSLog("ionicons font not loaded.")
+            
+            var path = NSBundle(forClass: self.classForCoder()).pathForResource("ionicons", ofType: "ttf")
+            
+            var inData = NSData(contentsOfFile:path!)
+    
+            
+            var provider = CGDataProviderCreateWithCFData(inData);
+            
+            var f = CGFontCreateWithDataProvider(provider);
+            
+            if (!CTFontManagerRegisterGraphicsFont(f!, nil)) {
+                
+                NSLog("Failed to load font");
+
+            }
+            
+            font = UIFont(name:"ionicons", size: size)
+            
         }
         
         return font!
