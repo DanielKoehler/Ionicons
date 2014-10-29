@@ -25,7 +25,7 @@ Easily use Ionicons in your Swift iOS projects
 
 ## Usage
 
-For available icons, look at `Ionicon` emumeration or [browse them on the IonIcons website](http://ionicons.com).
+For available icons, look at the `Ionicon` emumeration source or [browse them on the IonIcons website](http://ionicons.com).
 
 ### Get the Ionicons font
 
