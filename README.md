@@ -2,7 +2,7 @@
 Easily use Ionicons in your Swift iOS projects
 
 *Currently using ionicons 1.4.1*  
-*This project is simply a port and slight reconfiguration of [Sweetmandm/Ionicons-iOS](https://github.com/sweetmandm/ionicons-iOS/)
+*This project is simply a port and slight reconfiguration of [Sweetmandm/Ionicons-iOS](https://github.com/sweetmandm/ionicons-iOS/)*
 
 
 ## Requirements
