@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 DanielKoehler. All rights reserved.
 //
 
-import Cocoa
 import XCTest
 
 class IoniconsTests: XCTestCase {

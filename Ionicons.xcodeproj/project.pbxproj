@@ -10,6 +10,9 @@
 		4C9566BC1A014A43009572AF /* Ionicons.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9566BB1A014A43009572AF /* Ionicons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C9566C21A014A43009572AF /* Ionicons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9566B61A014A43009572AF /* Ionicons.framework */; };
 		4C9566C91A014A43009572AF /* IoniconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9566C81A014A43009572AF /* IoniconsTests.swift */; };
+		4C9566D51A014A65009572AF /* Ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9566D21A014A65009572AF /* Ionicons.swift */; };
+		4C9566D61A014A65009572AF /* Ionicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9566D31A014A65009572AF /* Ionicon.swift */; };
+		4C9566D71A014A65009572AF /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9566D41A014A65009572AF /* ionicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		4C9566C11A014A43009572AF /* IoniconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IoniconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9566C71A014A43009572AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9566C81A014A43009572AF /* IoniconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoniconsTests.swift; sourceTree = "<group>"; };
+		4C9566D21A014A65009572AF /* Ionicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ionicons.swift; sourceTree = "<group>"; };
+		4C9566D31A014A65009572AF /* Ionicon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ionicon.swift; sourceTree = "<group>"; };
+		4C9566D41A014A65009572AF /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				4C9566BB1A014A43009572AF /* Ionicons.h */,
+				4C9566D21A014A65009572AF /* Ionicons.swift */,
+				4C9566D31A014A65009572AF /* Ionicon.swift */,
+				4C9566D41A014A65009572AF /* ionicons.ttf */,
 				4C9566B91A014A43009572AF /* Supporting Files */,
 			);
 			path = Ionicons;
@@ -163,6 +172,7 @@
 				TargetAttributes = {
 					4C9566B51A014A43009572AF = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = NQB6785NRG;
 					};
 					4C9566C01A014A43009572AF = {
 						CreatedOnToolsVersion = 6.1;
@@ -192,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9566D71A014A65009572AF /* ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9566D51A014A65009572AF /* Ionicons.swift in Sources */,
+				4C9566D61A014A65009572AF /* Ionicon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +278,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				PROVISIONING_PROFILE = "e1aa2365-55ab-4a51-85c3-52b4f5c435b9";
+				SDKROOT = iphoneos8.1;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -304,9 +319,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				PROVISIONING_PROFILE = "e1aa2365-55ab-4a51-85c3-52b4f5c435b9";
+				SDKROOT = iphoneos8.1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -315,6 +332,9 @@
 		4C9566CD1A014A43009572AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -323,15 +343,22 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Ionicons/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4C9566CE1A014A43009572AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -340,9 +367,12 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Ionicons/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -397,6 +427,7 @@
 				4C9566CE1A014A43009572AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C9566CF1A014A43009572AF /* Build configuration list for PBXNativeTarget "IoniconsTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +436,7 @@
 				4C9566D11A014A43009572AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

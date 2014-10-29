@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 DanielKoehler. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+
+#import <Foundation/Foundation.h>
 
 //! Project version number for Ionicons.
 FOUNDATION_EXPORT double IoniconsVersionNumber;
