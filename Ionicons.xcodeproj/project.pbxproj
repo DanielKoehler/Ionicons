@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C9566BC1A014A43009572AF /* Ionicons.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9566BB1A014A43009572AF /* Ionicons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C9566C21A014A43009572AF /* Ionicons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9566B61A014A43009572AF /* Ionicons.framework */; };
+		4C9566C91A014A43009572AF /* IoniconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9566C81A014A43009572AF /* IoniconsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C9566C31A014A43009572AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9566AD1A014A43009572AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9566B51A014A43009572AF;
+			remoteInfo = Ionicons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C9566B61A014A43009572AF /* Ionicons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ionicons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9566BA1A014A43009572AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9566BB1A014A43009572AF /* Ionicons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ionicons.h; sourceTree = "<group>"; };
+		4C9566C11A014A43009572AF /* IoniconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IoniconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9566C71A014A43009572AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9566C81A014A43009572AF /* IoniconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoniconsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9566B21A014A43009572AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9566BE1A014A43009572AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9566C21A014A43009572AF /* Ionicons.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C9566AC1A014A43009572AF = {
+			isa = PBXGroup;
+			children = (
+				4C9566B81A014A43009572AF /* Ionicons */,
+				4C9566C51A014A43009572AF /* IoniconsTests */,
+				4C9566B71A014A43009572AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C9566B71A014A43009572AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C9566B61A014A43009572AF /* Ionicons.framework */,
+				4C9566C11A014A43009572AF /* IoniconsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C9566B81A014A43009572AF /* Ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				4C9566BB1A014A43009572AF /* Ionicons.h */,
+				4C9566B91A014A43009572AF /* Supporting Files */,
+			);
+			path = Ionicons;
+			sourceTree = "<group>";
+		};
+		4C9566B91A014A43009572AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C9566BA1A014A43009572AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C9566C51A014A43009572AF /* IoniconsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C9566C81A014A43009572AF /* IoniconsTests.swift */,
+				4C9566C61A014A43009572AF /* Supporting Files */,
+			);
+			path = IoniconsTests;
+			sourceTree = "<group>";
+		};
+		4C9566C61A014A43009572AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C9566C71A014A43009572AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C9566B31A014A43009572AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9566BC1A014A43009572AF /* Ionicons.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C9566B51A014A43009572AF /* Ionicons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9566CC1A014A43009572AF /* Build configuration list for PBXNativeTarget "Ionicons" */;
+			buildPhases = (
+				4C9566B11A014A43009572AF /* Sources */,
+				4C9566B21A014A43009572AF /* Frameworks */,
+				4C9566B31A014A43009572AF /* Headers */,
+				4C9566B41A014A43009572AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ionicons;
+			productName = Ionicons;
+			productReference = 4C9566B61A014A43009572AF /* Ionicons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C9566C01A014A43009572AF /* IoniconsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9566CF1A014A43009572AF /* Build configuration list for PBXNativeTarget "IoniconsTests" */;
+			buildPhases = (
+				4C9566BD1A014A43009572AF /* Sources */,
+				4C9566BE1A014A43009572AF /* Frameworks */,
+				4C9566BF1A014A43009572AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9566C41A014A43009572AF /* PBXTargetDependency */,
+			);
+			name = IoniconsTests;
+			productName = IoniconsTests;
+			productReference = 4C9566C11A014A43009572AF /* IoniconsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C9566AD1A014A43009572AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DanielKoehler;
+				TargetAttributes = {
+					4C9566B51A014A43009572AF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4C9566C01A014A43009572AF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C9566B01A014A43009572AF /* Build configuration list for PBXProject "Ionicons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C9566AC1A014A43009572AF;
+			productRefGroup = 4C9566B71A014A43009572AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C9566B51A014A43009572AF /* Ionicons */,
+				4C9566C01A014A43009572AF /* IoniconsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C9566B41A014A43009572AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9566BF1A014A43009572AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C9566B11A014A43009572AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9566BD1A014A43009572AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9566C91A014A43009572AF /* IoniconsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C9566C41A014A43009572AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9566B51A014A43009572AF /* Ionicons */;
+			targetProxy = 4C9566C31A014A43009572AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C9566CA1A014A43009572AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C9566CB1A014A43009572AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C9566CD1A014A43009572AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Ionicons/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4C9566CE1A014A43009572AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Ionicons/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4C9566D01A014A43009572AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IoniconsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C9566D11A014A43009572AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IoniconsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C9566B01A014A43009572AF /* Build configuration list for PBXProject "Ionicons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9566CA1A014A43009572AF /* Debug */,
+				4C9566CB1A014A43009572AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9566CC1A014A43009572AF /* Build configuration list for PBXNativeTarget "Ionicons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9566CD1A014A43009572AF /* Debug */,
+				4C9566CE1A014A43009572AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C9566CF1A014A43009572AF /* Build configuration list for PBXNativeTarget "IoniconsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9566D01A014A43009572AF /* Debug */,
+				4C9566D11A014A43009572AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9566AD1A014A43009572AF /* Project object */;
+}
