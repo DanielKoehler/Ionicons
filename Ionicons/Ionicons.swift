@@ -92,7 +92,7 @@ public class Ionicons: NSObject {
         
         // get the target bounding rect in order to center the icon within the UIImage:
         var ctx = NSStringDrawingContext()
-        var boundingRect = attString.boundingRectWithSize(CGSizeMake(iconSize, iconSize), options: NSStringDrawingOptions(rawValue: 0)!, context: ctx)
+        var boundingRect = attString.boundingRectWithSize(CGSizeMake(iconSize, iconSize), options: NSStringDrawingOptions.UsesDeviceMetrics, context: ctx)
         
         attString.drawInRect(CGRectMake((imageSize.width/2.0) - boundingRect.size.width/2.0, (imageSize.height/2.0) - boundingRect.size.height/2.0, imageSize.width, imageSize.height))
         
